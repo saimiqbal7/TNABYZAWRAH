@@ -1,0 +1,184 @@
+
+body{
+	text-decoration: none;
+	font-weight: 600;
+	font-family: 'Rajdhani', sans-serif;
+	color: #111;
+	margin: 0;
+
+
+}
+
+.name{
+
+	
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 13px;
+	font-weight: 300;
+
+}
+
+
+#Zawrah{
+
+	font-family: 'Source Serif Pro', serif;
+	font-size: 40px;
+}
+
+header{
+	padding-top: 10px;
+	background-color: antiquewhite;
+	width: 100%;
+	height: 120px;
+	position: fixed;
+
+}
+
+header ul{
+	
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: fit-content;
+	padding-left: 0;
+	padding-right: 10px;
+
+}
+
+header ul li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	padding: 10px 10px 0 10px;
+}
+
+
+header ul li a{
+	text-decoration: none;
+	color: #111;
+
+}
+
+
+.firstBody{
+	width: 100%;
+	height: calc(100vh - 120px);
+	background-image: url("blackbg.jpg");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	
+
+}
+
+.centerBody{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cust{
+
+	text-decoration: none;
+	background-color: none;
+	font-size: 35px;
+	font-weight: 300;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	width: 70%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color: antiquewhite;
+	border: 2px inset antiquewhite;
+	padding: 50px 0;
+	
+	
+}
+
+.message{
+	background-color: antiquewhite;
+}
+
+
+.message .pad{
+	padding: 70px 0;
+	
+
+}
+.message h1{
+
+	
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	border: 2px inset; #111;
+	
+	
+}
+
+
+.message img{
+	width: 100%;
+	height: calc(100vh - 100px);
+	object-fit: cover;
+
+
+	}
+
+#lastImg{
+	
+	padding-bottom: 120px;
+	vertical-align:bottom
+	
+}
+
+
+a:hover{
+	color: pink;
+}
+
+footer{
+
+	padding: 20px 0;
+	height: 100px;
+	background-color: black;
+	color: antiquewhite;
+
+
+}
+
+footer h3, a{
+	margin-left: 30px;
+	color: antiquewhite;
+	text-decoration: none;
+}
+
+footer h3 a:hover{
+	color: pink;
+}
+
+footer img{
+
+	width: 30px;
+}
+
+@media only screen and (min-width: 1000px){
+
+	.firstBody{
+		height: 700px;
+	}
+
+	.message{
+		text-align: center;
+
+	}
+	.message img{
+		width: 700px;
+
+
+	}
+}
